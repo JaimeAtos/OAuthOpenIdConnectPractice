@@ -12,16 +12,15 @@
             @foreach (var Claim in User.Claims)
             {
                 <dt>@Claim.Type</dt>
-                <dd>@Claim.Value</dd>
+                <dt>@Claim.Value</dt>
             }
         </dl>
         <h2>Propiedades</h2>
         <dl>
-            @foreach (var Prop in
-                (await Context.AuthenticateAsync()).Properties.Items)
+            @foreach (var Prop in (await Context.AuthenticateAsync()).Properties.Items)
             {
                 <dt>@Prop.Key</dt>
-                <dd>@Prop.Value</dd>
+                <dt>@Prop.Value</dt>
             }
         </dl>
     </div>

@@ -1,4 +1,4 @@
-using CodeFlowWithOpenIdConnect.Dependencies;
+using CodeFlowsWithOpenIdConnect.Dependencies;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;

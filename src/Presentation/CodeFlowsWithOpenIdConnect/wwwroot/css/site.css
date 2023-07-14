@@ -2,13 +2,13 @@ html {
   font-size: 14px;
 }
 
-.response-content {
+.response-content{
   white-space: pre-line;
   word-wrap: break-word;
   background-color: black;
-  Color: white;
+  color: white;
   padding: 20px;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 @media (min-width: 768px) {

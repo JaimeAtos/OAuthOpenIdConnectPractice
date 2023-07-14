@@ -1,4 +1,4 @@
-namespace CodeFlowWithOpenIdConnect.Models;
+namespace CodeFlowsWithOpenIdConnect.Models;
 
 public class ErrorViewModel
 {
